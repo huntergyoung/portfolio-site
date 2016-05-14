@@ -6,7 +6,7 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 /* General */
-/* NOTE - Smooth scroll speed and ease is controlled by custom.js */
+	/* NOTE - Smooth scroll speed and ease is controlled by custom.js */
 
 	body {
 	    width: 100%;
@@ -80,6 +80,10 @@
 	.light {
 	    font-weight: 100;
 	}
+
+	/* Scrollbar */
+
+
 
 /* Nav */
 /* NOTE - The point where it decides to collapse is controlled by custom.js */
@@ -160,6 +164,14 @@
 
 	}
 
+	/* Mobile Nav */
+
+	#mobile-nav {
+		text-transform: uppercase;
+	    font-family: 'Exo', sans-serif;
+	    background-color: rgba(0, 0, 0, 0.9);
+	}
+
 /* Header/Jumbotron */
 
 	#header {
@@ -214,9 +226,9 @@
 	    font-size:28px;
 	}
 
-	#item {
+	.item {
 	    color: white;
-	    
+
 	}
 	
 	.col-xs-4 {
@@ -342,6 +354,7 @@
 			}
 
 
+
 /* Footer */
 	footer {
 		background-color: rgba(0, 0, 0, 0.9);
@@ -375,3 +388,14 @@
 	.footer-yt {
 		color: white;
 	}
+
+
+
+
+
+
+
+
+
+
+
