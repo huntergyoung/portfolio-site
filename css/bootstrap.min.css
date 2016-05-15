@@ -176,6 +176,10 @@
 			display: inline;
 		}
 
+		.hideme {
+			opacity: 1;
+		}
+
 	}
 
 	/* Mobile Nav */
