@@ -81,8 +81,22 @@
 	    font-weight: 100;
 	}
 
-	/* Scrollbar */
+	/* Fade */
 
+	.fade {
+	   opacity: 1;
+	   transition: opacity .25s ease-in-out;
+	   -moz-transition: opacity .25s ease-in-out;
+	   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.5;
+      }
+
+    .hideme {
+    	opacity:0;
+	}
 
 
 /* Nav */
@@ -269,8 +283,16 @@
 
 	.portfolio-item p:nth-of-type(2) a {
 		border: 1px solid gray;
-		 font-family: 'Exo', sans-serif;
-		 color: black;
+		font-family: 'Exo', sans-serif;
+		color: black;
+	}
+
+	.project-role {
+		text-transform: ;
+	    font-family: 'Exo', sans-serif;
+	    font-weight: 200;
+	    letter-spacing: 1px;
+	    font-size: 16px;
 	}
 
 /* Contact */
